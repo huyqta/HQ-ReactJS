@@ -12,7 +12,7 @@ var HuyQuan = React.createClass({
             <h1> {this.props.ten} Test Props </h1>
             <p> {this.props.children} </p>
             <button onClick={()=>{var str = this.props.ten + ' ' + this.props.children; globalFunction(str)}}>Thong tin</button>
-            </div>g
+            </div>
         );
     }
 });
